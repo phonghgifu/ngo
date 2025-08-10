@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nguyễn Văn Phong - CV Ứng Tuyển Lập Trình Viên</title>
+  <link rel="stylesheet" href="style_phong.css"/>
+  <style>
+    .animated-avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #2563eb;
+      box-shadow: 0 8px 32px rgba(37,99,235,0.15);
+      animation: pulse 2s infinite;
+      margin-bottom: 18px;
+      object-fit: cover;
+      filter: drop-shadow(0 0 16px #60a5fa);
+      transition: transform 0.5s;
+    }
+    .animated-avatar:hover {
+      transform: scale(1.08) rotate(-2deg);
+      filter: drop-shadow(0 0 32px #2563eb);
+    }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(37,99,235,0.3); }
+      70% { box-shadow: 0 0 0 20px rgba(37,99,235,0); }
+      100% { box-shadow: 0 0 0 0 rgba(37,99,235,0.3); }
+    }
+    .socials {
+      margin: 18px 0 10px 0;
+    }
+    .socials a {
+      display: inline-block;
+      margin: 0 10px;
+      transition: transform 0.3s;
+    }
+    .socials a:hover {
+      transform: scale(1.2) rotate(-8deg);
+      filter: drop-shadow(0 0 8px #2563eb);
+    }
+    .info-list {
+      text-align: left;
+      max-width: 540px;
+      margin: 20px auto 30px auto;
+      background: #f8fafc;
+      border-radius: 10px;
+      padding: 24px 28px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      font-size: 17px;
+      animation: fadeInUp 1.2s 0.2s both;
+    }
+    .info-list b { color: #2563eb; }
+    .quote {
+      font-style: italic;
+      color: #64748b;
+      margin: 18px 0 0 0;
+      text-align: center;
+      font-size: 18px;
+      animation: fadeInUp 1.2s 0.4s both;
+    }
+    .achievements, .certificates, .activities, .hobbies {
+      max-width: 700px;
+      margin: 32px auto 0 auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      padding: 24px 28px;
+      text-align: left;
+      animation: fadeInUp 1.2s 0.6s both;
+    }
+    .achievements h3, .certificates h3, .activities h3, .hobbies h3 {
+      color: #2563eb;
+      margin-bottom: 10px;
+    }
+    .achievements ul, .certificates ul, .activities ul, .hobbies ul {
+      margin-left: 18px;
+      margin-bottom: 0;
+    }
+    .achievements li, .certificates li, .activities li, .hobbies li {
+      margin-bottom: 7px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <div class="logo">PHONG</div>
+      <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="skills-contact.html">Kỹ năng & Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+  <section class="section">
+    <img src="img/avatar.jpg" alt="Ảnh đại diện Nguyễn Văn Phong" class="animated-avatar"/>
+    <h1 style="color:#2563eb; font-size:30px; margin-bottom:8px;">Nguyễn Văn Phong</h1>
+    <div class="info-list">
+      <p><b>Vị trí ứng tuyển:</b> Lập trình viên Web/Phần mềm (Fresher/Intern)</p>
+      <p><b>Trường:</b> Đại học Đà Lạt (CNTT, 2021-2025)</p>
+      <p><b>Email:</b> phong.email@example.com</p>
+      <p><b>Điện thoại:</b> 0123 456 789</p>
+      <p><b>LinkedIn:</b> linkedin.com/in/phongnguyen</p>
+      <p><b>Địa chỉ:</b> KTX ĐH Đà Lạt, Phường 8, TP. Đà Lạt</p>
+      <p><b>Mục tiêu:</b> Ứng dụng kiến thức, phát triển kỹ năng thực tế, đóng góp giá trị cho doanh nghiệp, sẵn sàng học hỏi công nghệ mới.</p>
+    </div>
+    <div class="quote">“Tôi luôn chủ động học hỏi, thích nghi nhanh và cam kết hoàn thành tốt mọi nhiệm vụ được giao.”</div>
+    <div class="achievements">
+      <h3>Thành tích & Chứng chỉ</h3>
+      <ul>
+        <li>Giải Nhì Olympic Tin học sinh viên ĐH Đà Lạt 2024</li>
+        <li>Top 10 Hackathon Đà Lạt 2023</li>
+        <li>Học bổng khuyến khích học tập 3 năm liên tiếp</li>
+        <li>Chứng chỉ Lập trình Web (FPT Aptech)</li>
+        <li>Chứng chỉ Python cơ bản (Coursera)</li>
+        <li>Chứng chỉ MOS Excel 2019</li>
+      </ul>
+    </div>
+    <div class="activities">
+      <h3>Hoạt động & Dự án nổi bật</h3>
+      <ul>
+        <li>Thành viên CLB IT Đại học Đà Lạt</li>
+        <li>Tham gia tổ chức Workshop "Lập trình cho mọi người"</li>
+        <li>Tình nguyện viên Mùa hè xanh 2023</li>
+        <li><b>Website Quản lý Sinh viên:</b> Node.js, ReactJS, MySQL, REST API</li>
+        <li><b>Blog cá nhân:</b> HTML, CSS, JavaScript, tối ưu SEO, responsive</li>
+        <li><b>Ứng dụng Quản lý Công việc:</b> Java, MySQL, giao diện thân thiện</li>
+      </ul>
+    </div>
+    <div class="hobbies">
+      <h3>Sở thích & Thái độ</h3>
+      <ul>
+        <li>Đọc sách công nghệ, học ngoại ngữ, lập trình giải thuật</li>
+        <li>Chơi thể thao (bóng đá, cầu lông), du lịch, nhiếp ảnh</li>
+        <li>Luôn chủ động, hợp tác, cầu tiến và trung thực</li>
+      </ul>
+    </div>
+    <div class="socials">
+      <a href="https://www.facebook.com/phongismancold" target="_blank"><img src="img/facebook.svg" alt="Facebook" style="width:36px;"></a>
+      <a href="https://github.com/phonghgifu" target="_blank"><img src="img/github.svg" alt="GitHub" style="width:36px;"></a>
+  <a href="#" target="_blank"><img src="img/zalo.webp" alt="Zalo" style="width:36px;"></a>
+      <!-- Thêm các mạng xã hội khác nếu muốn -->
+    </div>
+  </section>
+  <section class="section">
+    <h2>Kỹ năng chuyên môn</h2>
+    <div class="skills-container">
+      <div class="skill-card" data-skill="html">HTML5</div>
+      <div class="skill-card" data-skill="css">CSS3</div>
+      <div class="skill-card" data-skill="js">JavaScript (ES6+)</div>
+      <div class="skill-card" data-skill="react">ReactJS</div>
+      <div class="skill-card" data-skill="node">Node.js</div>
+      <div class="skill-card" data-skill="java">Java</div>
+      <div class="skill-card" data-skill="cpp">C++</div>
+      <div class="skill-card" data-skill="python">Python</div>
+      <div class="skill-card" data-skill="mysql">MySQL</div>
+      <div class="skill-card" data-skill="git">Git</div>
+      <div class="skill-card" data-skill="english">Tiếng Anh</div>
+      <div class="skill-card" data-skill="teamwork">Làm việc nhóm</div>
+      <div class="skill-card" data-skill="problem">Giải quyết vấn đề</div>
+      <div class="skill-card" data-skill="selflearn">Tự học</div>
+    </div>
+    <div id="skill-modal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100vw;height:100vh;background:rgba(30,41,59,0.25);align-items:center;justify-content:center;">
+      <div id="skill-modal-content" style="background:#fff;padding:32px 28px 18px 28px;border-radius:14px;max-width:400px;box-shadow:0 8px 32px rgba(37,99,235,0.15);position:relative;animation:fadeInUp 0.5s;min-width:260px;">
+        <span id="skill-modal-close" style="position:absolute;top:10px;right:18px;font-size:22px;cursor:pointer;color:#2563eb;font-weight:bold;">&times;</span>
+        <div id="skill-modal-title" style="font-size:22px;color:#2563eb;font-weight:bold;margin-bottom:10px;"></div>
+        <div id="skill-modal-desc" style="font-size:16px;color:#334155;"></div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <h2>Dự án tiêu biểu</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Website Quản lý Sinh viên</h3>
+        <p>Xây dựng hệ thống quản lý sinh viên bằng Node.js, Express, MySQL, giao diện ReactJS.</p>
+        <a href="#" target="_blank">Xem chi tiết</a>
+      </div>
+      <div class="project-card">
+        <h3>Blog cá nhân</h3>
+        <p>Trang blog cá nhân responsive, tối ưu SEO, sử dụng HTML, CSS, JavaScript.</p>
+        <a href="#" target="_blank">Xem chi tiết</a>
+      </div>
+      <div class="project-card">
+        <h3>Ứng dụng Quản lý Công việc</h3>
+        <p>Ứng dụng quản lý công việc cá nhân, nhắc nhở deadline, xây dựng bằng Java và MySQL.</p>
+        <a href="#" target="_blank">Xem chi tiết</a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <h2>Liên hệ với tôi</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Tên của bạn" required>
+      <input type="email" name="email" placeholder="Email của bạn" required>
+      <textarea name="message" placeholder="Nội dung tin nhắn" rows="5" required></textarea>
+      <button type="submit">Gửi tin nhắn</button>
+    </form>
+  </section>
+  <footer>
+    <p>© 2025 Nguyễn Văn Phong. All rights reserved.</p>
+  </footer>
+</body>
+<script>
+// Dữ liệu kỹ năng
+const skillData = {
+  html: { title: 'HTML5', desc: 'Xây dựng cấu trúc web, semantic, tối ưu SEO, responsive.' },
+  css: { title: 'CSS3', desc: 'Thiết kế giao diện, hiệu ứng động, Flexbox, Grid, animation.' },
+  js: { title: 'JavaScript (ES6+)', desc: 'Lập trình logic web, DOM, fetch API, async/await, SPA.' },
+  react: { title: 'ReactJS', desc: 'Component, state, hook, xây dựng giao diện hiện đại.' },
+  node: { title: 'Node.js', desc: 'Backend JavaScript, REST API, Express, JWT.' },
+  java: { title: 'Java', desc: 'OOP, ứng dụng desktop, backend, JDBC.' },
+  cpp: { title: 'C++', desc: 'Thuật toán, cấu trúc dữ liệu, tối ưu hiệu năng.' },
+  python: { title: 'Python', desc: 'Web, AI, automation, xử lý dữ liệu, script.' },
+  mysql: { title: 'MySQL', desc: 'Thiết kế, truy vấn, tối ưu hóa dữ liệu.' },
+  git: { title: 'Git', desc: 'Quản lý phiên bản, teamwork, CI/CD.' },
+  english: { title: 'Tiếng Anh', desc: 'Đọc hiểu tài liệu chuyên ngành, giao tiếp cơ bản, TOEIC 650+.' },
+  teamwork: { title: 'Làm việc nhóm', desc: 'Chủ động trao đổi, phối hợp, hỗ trợ đồng đội.' },
+  problem: { title: 'Giải quyết vấn đề', desc: 'Tư duy logic, phân tích, đề xuất giải pháp hiệu quả.' },
+  selflearn: { title: 'Tự học', desc: 'Tìm kiếm, cập nhật kiến thức mới, học online, tự nghiên cứu.' }
+};
+
+// Đảm bảo chỉ 1 popup hiển thị tại 1 thời điểm
+let currentPopup = null;
+function closeAllPopups() {
+  document.getElementById('skill-modal').style.display = 'none';
+  currentPopup = null;
+}
+
+document.querySelectorAll('.skill-card').forEach(card => {
+  card.addEventListener('click', function() {
+    closeAllPopups();
+    const key = this.getAttribute('data-skill');
+    if(skillData[key]) {
+      document.getElementById('skill-modal-title').innerText = skillData[key].title;
+      document.getElementById('skill-modal-desc').innerText = skillData[key].desc;
+      document.getElementById('skill-modal').style.display = 'flex';
+      currentPopup = 'skill';
+    }
+  });
+});
+document.getElementById('skill-modal-close').onclick = function() {
+  closeAllPopups();
+};
+document.getElementById('skill-modal').onclick = function(e) {
+  if(e.target === this) closeAllPopups();
+};
+</script>
+</html>
